@@ -25,7 +25,7 @@ int main(void) {
     // If the current character is an ordinary character
     // after a special character save the pointer to it in
     // the words[] array.
-    else if (prev_char_not_ordinary) {
+  else if (prev_char_not_ordinary) {
       // PLACE YOUR CODE HERE
     }
     // Move the pointer in buff by one place.
