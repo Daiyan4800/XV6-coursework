@@ -146,6 +146,7 @@ UPROGS=\
 	$U/_sleep\
 	$U/_pingpong\
 	$U/_my_shell\
+	$U/_pidfork\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
